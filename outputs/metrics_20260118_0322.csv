@@ -1,0 +1,18 @@
+TOP_5_ITEMS
+item_name,total_quantity
+Hamburger,622
+Edamame,620
+Korean Beef Bowl,588
+Cheeseburger,583
+French Fries,571
+
+REVENUE_BY_CATEGORY
+category,revenue
+Italian,49462.7
+Asian,46720.65
+Mexican,34796.799999999996
+American,28237.75
+
+BUSIEST_HOUR
+hour,order_count
+12,1659

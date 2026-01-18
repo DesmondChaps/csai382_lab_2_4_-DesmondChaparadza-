@@ -9,3 +9,26 @@
 2026-01-18 03:02:53,764 | INFO | Cluster ID: 0118-025411-w49k39wn-v2n
 2026-01-18 03:16:56,693 | INFO | Wrote data_hashes.json with SHA-256 hashes:
 2026-01-18 03:16:56,694 | INFO | {'menu_items.csv': '7b988ca5f880bf2106793f88de522aab06b4cebbc9219c5aa79497e897c47561', 'order_details.csv': '85086e838a21f7569b0cd803224f50440ab68c132e1df5df1a1058072abbcd83'}
+2026-01-18 03:22:42,705 | INFO | Loading menu from data/menu_items.csv
+2026-01-18 03:22:42,707 | INFO | Loading orders from data/order_details.csv
+2026-01-18 03:22:42,861 | INFO | Loaded menu rows: 32 | orders rows: 12234
+2026-01-18 03:23:49,221 | INFO | Data cleaning complete
+2026-01-18 03:24:15,318 | INFO | Joined rows: 12097
+2026-01-18 03:24:57,422 | INFO | Tidy columns: ['order_id', 'order_date', 'order_time', 'item_name', 'category', 'price', 'order_datetime']
+2026-01-18 03:24:57,423 | INFO | Tidy rows: 12097
+2026-01-18 03:25:57,461 | INFO | Computed metrics
+2026-01-18 03:25:57,462 | INFO | Top 5 items rows: 5
+2026-01-18 03:25:57,463 | INFO | Revenue by category rows: 4
+2026-01-18 03:25:57,464 | INFO | Busiest hour rows: 1
+2026-01-18 03:28:21,176 | INFO | All Part D assertions passed ✅
+2026-01-18 03:28:21,182 | INFO | ========== ETL RUN END ==========
+2026-01-18 03:32:35,174 | INFO | Output directory set to: outputs
+2026-01-18 03:33:08,142 | INFO | Saved tidy output: outputs/tidy_20260118_0322.csv
+2026-01-18 03:33:08,143 | INFO | Saved metrics output: outputs/metrics_20260118_0322.csv
+2026-01-18 03:36:06,178 | INFO | Top 5 items preview:
+2026-01-18 03:36:06,181 | INFO |        item_name  total_quantity
+       Hamburger             622
+         Edamame             620
+Korean Beef Bowl             588
+    Cheeseburger             583
+    French Fries             571
